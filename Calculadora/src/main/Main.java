@@ -9,7 +9,7 @@ public class Main {
         
         int hola = 12 ; 
         
-        System.out.println(hola);
+        System.out.println((hola)+12);
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingresa el primer número: ");
