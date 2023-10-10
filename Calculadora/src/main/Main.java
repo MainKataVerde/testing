@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        double num12, num2, resultado;
+        double numero1, num2, resultado;
         
         int hola = 12 ; 
         
@@ -13,12 +13,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingresa el primer número: ");
-        num12= sc.nextDouble();
+        numero1= sc.nextDouble();
         System.out.println("Ingresa el segundo número: ");
         num2 = sc.nextDouble();
         resultado = num12 + num2;
 
-        System.out.println("La suma de " + num12 + " y " + num2 + " es " + resultado + ".");
+        System.out.println("La suma de " + numero1 + " y " + num2 + " es " + resultado + ".");
         sc.close();
 
     }
