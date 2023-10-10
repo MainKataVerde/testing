@@ -8,6 +8,8 @@ public class Main {
         double num12, num2, resultado;
         
         int hola = 12 ; 
+        
+        System.out.println(hola);
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Ingresa el primer número: ");
